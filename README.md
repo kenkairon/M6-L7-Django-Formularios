@@ -56,5 +56,49 @@ Educativo y de Aprendizaje Personal
 
 7. Ingresar al directorio del Proyecto
     ```bash
-    cd proyecto
+    cd formulario
+8. Creamos la Aplicación 
+    ```bash
+    python manage.py startapp froms_app
+
+## Configuración del Proyecto
+
+9. Hacemos Migraciones para que cree las tablas por defecto que tiene django y creando el db.sqlite3
+   ```bash 
+   python manage.py migrate
+
+
+10. Conectar el proyecto con la aplicación: Agregar '', en la lista INSTALLED_APPS dentro del archivo formulario/settings.py
+    ```bash
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'form'
+    ]
+
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+
 
